@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portofolio Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#pendidikan">Riwayat Pendidikan</a></li>
+                <li><a href="#pengalaman">Riwayat Pengalaman Kerja</a></li>
+                <li><a href="#kontak">Kontak Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="profil">
+            <h2>Profil</h2>
+            <img src="amin.png" width="20%" height="20%"/>
+            <p>Perkenalkan, nama saya Amin Mustofa. Saya seorang Mahasiswa dengan pengalaman di Bidang Wewangian.</p>
+        </section>
+        
+        <section id="pendidikan">
+            <h2>Riwayat Pendidikan</h2>
+            <ul>
+                <li><strong></strong>  SMA N 1 Baturraden, 2018</li>
+                <li><strong></strong>  STTI Itech, 2024</li>
+            </ul>
+        </section>
+        
+        <section id="pengalaman">
+            <h2>Riwayat Pengalaman Kerja</h2>
+            <ul>
+                <li><strong>Pegawai</strong> di Ruby Parfum - 2023 hingga Sekarang</li>
+                <li><strong>Membuat Aroma Baru</strong> - Membuat Aroma Parfum Yang banyak di Gemari banyak kalangan.</li>
+            </ul>
+        </section>
+        
+        <section id="kontak">
+            <h2>Kontak Kami</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Portofolio Saya. All rights reserved Amin Mustofa(422311031).</p>
+    </footer>
+</body>
+</html>
